@@ -58,9 +58,13 @@ Standardization ensures numerical columns are on a comparable scale, which is es
 The pipeline retains the original order of columns, which is useful for reporting and model feature alignment.
 ## Console Preview Consistency: 
 The console preview now matches the CSV output, including 'Unknown' in place of missing categorical values.
-# Modular and Adaptable: 
+## Modular and Adaptable: 
 The pipeline is modular, using scikit-learn pipelines and transformers, which makes it reusable across multiple datasets with minimal changes.
 
 # Conclusion
 
 This ETL pipeline demonstrates best practices in data preprocessing by integrating missing value handling, feature scaling, and categorical data cleaning into a single, automated workflow. It is a robust foundation for any data science project where clean and standardized input data is essential for analysis, visualization, or model building. This pipeline is particularly useful for internship and real-world applications where datasets are often incomplete, unstandardized, and messy, ensuring high-quality, reproducible data processing.
+
+# Output
+
+<img width="806" height="560" alt="Image" src="https://github.com/user-attachments/assets/55e9073a-9fae-4127-bb85-b2d050af3f35" />
